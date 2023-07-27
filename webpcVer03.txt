@@ -1,0 +1,77 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>webpcVer03</title>
+	<script src='script.js'></script>
+</head>
+<body>
+	<div>
+	<header>
+	<h1>コウの趣味と学問に関するホームページ</h1>
+	</header>
+	</div>
+
+	<div>
+	<h2>ウェブパソコンの部屋</h2>
+	</div>
+
+	<div>
+	<h3>ウェブパソコンVer03</h3>
+	<p>このバージョンでは、テキストボックスに入力された文字と同じひらがなが記された画像を表示します。</p>
+	<p>一番最初に表示される文字は「はじめまして」となります。</p>
+	<p>また、ひらがなのみの対応になっており、漢字や英数字は表示されません。</p>
+	</div>
+
+	<img id='bmp0' src='文字セット/空白.bmp'>
+	<img id='bmp1' src='文字セット/空白.bmp'>
+	<img id='bmp2' src='文字セット/空白.bmp'>
+	<img id='bmp3' src='文字セット/空白.bmp'>
+	<img id='bmp4' src='文字セット/空白.bmp'>
+	<img id='bmp5' src='文字セット/空白.bmp'>
+	<img id='bmp6' src='文字セット/空白.bmp'>
+	<img id='bmp7' src='文字セット/空白.bmp'>
+	<img id='bmp8' src='文字セット/空白.bmp'>
+	<img id='bmp9' src='文字セット/空白.bmp'>
+	<br>
+	<img id='bmp10' src='文字セット/空白.bmp'>
+	<img id='bmp11' src='文字セット/空白.bmp'>
+	<img id='bmp12' src='文字セット/空白.bmp'>
+	<img id='bmp13' src='文字セット/空白.bmp'>
+	<img id='bmp14' src='文字セット/空白.bmp'>
+	<img id='bmp15' src='文字セット/空白.bmp'>
+	<img id='bmp16' src='文字セット/空白.bmp'>
+	<img id='bmp17' src='文字セット/空白.bmp'>
+	<img id='bmp18' src='文字セット/空白.bmp'>
+	<img id='bmp19' src='文字セット/空白.bmp'>
+	<br>
+
+	<label>画面へ入力：
+		<input type="text" name="text2" id="textinthebox">
+		<input type="button" value="入力" onclick="buttonclick()" id=""button2">
+	</label>
+<script>
+	var i=0;
+	if (i==0) {
+		displayBmpMessage('はじめまして');
+
+	} else {
+		;
+	}
+
+	function buttonclick() {
+		displayBmpMessage('　　　　　　　　　　');
+		var str = document.getElementById('textinthebox').value;
+		displayBmpMessage(str);
+		i=1;
+	}
+</script>
+
+	<div>
+	<fooder>
+	<h6><a href="../index.htm">サイトトップ</a></h6>
+	</fooder>
+	</div>
+</body>
+<food>
+</food>
+</html>
